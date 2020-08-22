@@ -2,7 +2,7 @@
 redirect_from: "/"
 ---
 
-This is a sample of main page. You can edit it to start your wiki.
+# 欢迎
 
-For documentation, installation guide and demo of [git-wiki-theme](git-wiki-theme) visit this [link](http://drassil.github.io/git-wiki/)
+您好，欢迎访问 OmicHub！我们的网址是：www.omichub.com
 
