@@ -3,8 +3,8 @@
     {% include {{ site.inc_before_page_list }} %}
     {% endif %}
 
-    <span class="page-list-title">Pages {% if (site.show_wiki_pages_limit >= 1 %} (Latest {{site.show_wiki_pages_limit
-        }} updated) {% endif %}:</span>
+    <span class="page-list-title">项目 {% if (site.show_wiki_pages_limit >= 1 %} (最新 {{site.show_wiki_pages_limit
+        }} 条更新) {% endif %}:</span>
     <ul class="page-list">
         {% assign numPages=0 %}
         {% assign items = site.html_pages | sort: 'date' %}
