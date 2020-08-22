@@ -76,21 +76,23 @@ defaults:
       layout: "git-wiki-default"
  -
     scope:
-      path: ""
+      path: assets/blog
+      type: "blog"
+    values:
+      layout: "git-wiki-blog"
+ -
+    scope:
+      path: "/"
       type: "pages"
     values:
       layout: "git-wiki-default"
  -
     scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "git-wiki-post"
- -
-    scope:
-      path: assets/blog
-    values:
-      layout: "git-wiki-blog"
+
 sass:
     style: compressed
 plugins:
