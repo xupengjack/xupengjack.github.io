@@ -22,17 +22,17 @@ layout: git-wiki-default
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">
-      Previous
+      前一项
     </a>
   {% else %}
-    <span class="previous">Previous</span>
+    <span class="previous">前一项</span>
   {% endif %}
   <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    项目: 第 {{ paginator.page }} 共 {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}" class="next">Next</a>
+    <a href="{{ paginator.next_page_path | relative_url }}" class="next">后一项</a>
   {% else %}
-    <span class="next ">Next</span>
+    <span class="next ">后一项</span>
   {% endif %}
 </div>
