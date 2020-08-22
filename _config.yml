@@ -69,26 +69,27 @@ defaults:
       path: "wiki"
     values:
       permalink: /:basename
+# -
+#    scope:
+#      path: "" # an empty string here means all files in the project
+#    values:
+#      layout: "git-wiki-default"
  -
     scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "git-wiki-default"
- -
-    scope:
-      path: ""
+      path: "wiki"
       type: "pages"
     values:
       layout: "git-wiki-default"
  -
     scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "git-wiki-post"
  -
     scope:
       path: assets/blog
+      type: "blog"
     values:
       layout: "git-wiki-blog"
 sass:
