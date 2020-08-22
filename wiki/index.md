@@ -1,0 +1,10 @@
+---
+redirect_from: "/"
+---
+
+# 欢迎
+
+###  您好，欢迎访问 OmicHub！我们的网址是：www.omichub.com
+
+
+
