@@ -82,7 +82,7 @@ defaults:
       layout: "git-wiki-default"
  -
     scope:
-      path: "_posts"
+      path: ""
       type: "posts"
     values:
       layout: "git-wiki-post"
