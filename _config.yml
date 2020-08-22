@@ -64,11 +64,11 @@ kramdown:
   syntax_highlighter: rouge
 
 defaults:
- - 
-    scope:
-      path: "wiki"
-    values:
-      permalink: /:basename
+# -
+#    scope:
+#      path: "wiki"
+#    values:
+#      permalink: /:basename
 # -
 #    scope:
 #      path: "" # an empty string here means all files in the project
@@ -88,7 +88,7 @@ defaults:
       layout: "git-wiki-post"
  -
     scope:
-      path: assets/blog
+      path: "assets/blog"
       type: "blog"
     values:
       layout: "git-wiki-blog"
